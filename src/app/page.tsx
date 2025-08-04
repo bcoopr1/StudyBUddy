@@ -290,7 +290,7 @@ export default function ChatbotPage() {
                 gap: '8px',
                 justifyContent: 'center'
               }}>
-                {["Summarize a video", "Help with homework", "Search books", "Search for Exam"].map((suggestion, idx) => (
+                {["Summarize a video", "Help with homework", "Search books", "What exams do we have?"].map((suggestion, idx) => (
                   <button
                     key={idx}
                     onClick={() => setQuestion(suggestion)}
